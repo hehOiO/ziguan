@@ -17,6 +17,8 @@ import * as filters from '@/components/fifter/fifter'
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
 })
+
+//引入
 Vue.use(ElementUI);
 Vue.use(SlideVerify);
 Vue.config.productionTip = false
